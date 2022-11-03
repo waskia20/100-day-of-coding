@@ -36,7 +36,7 @@ nama_belakang_entry.pack(padx=10,fill="x",expand=True)
 #5 tombol
 def tombol_click():
     '''funsi ini akan dipanggil oleh tombol'''
-    pesan=f"hallo {NAMA_DEPAN.get()} {NAMA_BELAKANG.get()},Cantik manisss,tetap semangat yah dan ingat orang tua!"
+    pesan=f"hallo {NAMA_DEPAN.get()} {NAMA_BELAKANG.get()},how are you!"
     showinfo(title="hi",message=pesan)
 tombol_sapa = ttk.Button(input_frame,text="sapa!",command=tombol_click)
 tombol_sapa.pack(fill='x',expand=True,padx=10,pady=10)
